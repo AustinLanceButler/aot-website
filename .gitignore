@@ -1,0 +1,9 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# local build / temp (not part of the static site)
+_opt/
+_b64/
+dist-upload/
+node_modules/

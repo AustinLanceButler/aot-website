@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Always On Time Transportation</title>
+<meta name="description" content="Call Always On Time Transportation in Palm Beach County (561) 444-7411 or the Treasure Coast (772) 888-6230, or send us a message. Available 24/7 with advance notice.">
+<link rel="icon" type="image/png" href="assets/logo/aot-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+<site-header active="contact"></site-header>
+
+<main>
+  <section class="phero" data-screen-label="Contact hero">
+    <div class="container">
+      <p class="crumb"><a href="index.html">Home</a> · Contact</p>
+      <h1>Let's get your ride booked</h1>
+      <p class="lead">Call the office nearest you and we'll take care of the details, or send a message and we'll get right back to you. Available 24/7 with advance notice.</p>
+    </div>
+  </section>
+
+  <section class="section" data-screen-label="Contact details">
+    <div class="container">
+      <div class="split" style="align-items:start">
+        <!-- LEFT: offices + email + hours -->
+        <div>
+          <p class="eyebrow">Call us</p>
+          <div class="stack">
+            <div class="office">
+              <h3><span class="i" data-icon="pin"></span>Palm Beach County</h3>
+              <p class="region">Delray Beach — main office</p>
+              <a class="office__phone" href="tel:+15614447411"><span class="i" data-icon="phone"></span>(561) 444-7411</a>
+              <address><span class="i" data-icon="pin"></span>100 E Linton Blvd, Ste 153A/152A<br>Delray Beach, FL 33483</address>
+            </div>
+            <div class="office">
+              <h3><span class="i" data-icon="pin"></span>Martin / St. Lucie</h3>
+              <p class="region">Treasure Coast</p>
+              <a class="office__phone" href="tel:+17728886230"><span class="i" data-icon="phone"></span>(772) 888-6230</a>
+              <address><span class="i" data-icon="pin"></span>611 SW Federal Hwy, Ste D<br>Stuart, FL 34994</address>
+            </div>
+            <div class="card" style="display:flex;flex-wrap:wrap;gap:18px 28px">
+              <div style="display:flex;gap:12px;align-items:center"><span class="i" data-icon="clock" style="color:var(--blue-600)"></span><div><strong>Hours</strong><br><span style="color:var(--text-muted)">24/7 with advance notice</span></div></div>
+              <div style="display:flex;gap:12px;align-items:center"><span class="i" data-icon="mail" style="color:var(--blue-600)"></span><div><strong>Email</strong><br><a href="mailto:alwaysontimetransportation@gmail.com">alwaysontimetransportation@gmail.com</a></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: message form -->
+        <div>
+          <p class="eyebrow">Send a message</p>
+          <div class="form-card">
+            <form data-ride-form novalidate>
+              <div data-form-body>
+                <div class="field">
+                  <label for="c-name">Your name <span class="req">*</span></label>
+                  <input class="input" id="c-name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="field-row">
+                  <div class="field">
+                    <label for="c-phone">Phone <span class="req">*</span></label>
+                    <input class="input" id="c-phone" name="phone" type="tel" autocomplete="tel" required>
+                  </div>
+                  <div class="field">
+                    <label for="c-email">Email</label>
+                    <input class="input" id="c-email" name="email" type="email" autocomplete="email">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="c-msg">How can we help? <span class="req">*</span></label>
+                  <textarea class="textarea" id="c-msg" name="message" required placeholder="Tell us who the ride is for, where you're going, and when."></textarea>
+                </div>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Send message</button>
+                <p class="form-note">Prefer to talk now? Call <a href="tel:+15614447411">(561) 444-7411</a>. We'll never share your information.</p>
+              </div>
+              <div class="form-ok" data-form-ok hidden>
+                <h3><span class="i" data-icon="checkCircle"></span>Message sent</h3>
+                <p>Thank you<span data-ok-name></span> — we've received your message and will get back to you shortly. If it's time-sensitive, please call us at <a href="tel:+15614447411">(561) 444-7411</a>.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<site-footer></site-footer>
+</body>
+</html>
